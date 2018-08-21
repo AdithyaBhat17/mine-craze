@@ -13,6 +13,7 @@ A cryptocurrency app built with React.js and Pusher API.
 * Run front-end server -
 ```
  npm i g serve
- server -s build```
+ server -s build
+```
 
  You can also try out the web app here - [Krypto](https://kryptoo.now.sh)
