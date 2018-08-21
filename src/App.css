@@ -1,0 +1,80 @@
+@font-face{
+  font-family: 'Anurati';
+  src: url('./Anurati-Regular.otf');
+}
+
+@font-face{
+  font-family: 'SF';
+  src: url('./SanFranciscoDisplay-Bold.otf');
+  font-weight: bold;
+}
+
+@font-face{
+  font-family: 'SF';
+  src: url('./SanFranciscoDisplay-Regular.otf');
+  font-weight: normal;
+}
+
+.App {
+  text-align: center;
+  color:#242943
+}
+.App-title{
+  background-color:#242943;
+  padding:15px;
+  color:#fff;
+  font-family: 'Anurati';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2em;
+}
+
+h3{
+  font-family: 'SF';
+  font-weight: bold;
+  text-align: left;
+}
+
+h5{
+  font-family: 'SF';
+  font-weight: bold;
+}
+
+h6{
+  font-family: 'SF';
+  text-align: left;
+  font-weight: bold;
+  color:#2a304c;
+  margin-left:5px;
+}
+
+p{
+  font-family: 'SF';
+  font-weight: bold;
+}
+
+span{
+  font-weight: normal !important;
+  font-family: 'SF'
+}
+
+.thumb{
+  background-color:#fff;
+  box-shadow:5px 5px 25px 0 rgba(46,61,73,0.2);
+  padding: 20px;
+  margin:0 1px;
+  border-radius: 5px;
+  width:33%;
+}
+
+.thumbnail{
+  border:0;
+}
+
+.thumbnail>.row{
+  font-family: 'SF';
+  padding:20px;
+  border:0;
+  border-radius:5px;
+  box-shadow: 5px 5px 25px 0 rgba(46,61,73,0.2);
+}
